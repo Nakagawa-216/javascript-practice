@@ -29,12 +29,13 @@
 
 $(document).ready(function () {
   $("#theTarget").skippr({
-    transition : 'slide',
-    speed : 1000,
+    transition : 'fade',
+    speed : 600,
     easing : 'easeOutQuart',
-    navType : 'block',
+    navType : 'bubble',
     childrenElementType : 'div',
     arrows : true,
+    autoPlay : true,
     autoPlayDuration : 3000,
     keyboardOnAlways : true,
     hidePrevious : false
